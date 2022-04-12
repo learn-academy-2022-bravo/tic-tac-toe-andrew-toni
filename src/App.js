@@ -7,10 +7,13 @@ class App extends Component{
   constructor(props){
     super(props)
     this.state = {
-      squares: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+      squares: [0, 1, 2, 3, 4, 5, 6, 7, 8],
+      goodbye:"goodbye"
           }
   }
-
+//**PSEUDOCODE**
+//- As a user, I should be able to click on a square to mark it.
+// 
 
   
   render(){
